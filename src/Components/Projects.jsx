@@ -70,7 +70,7 @@ function Projects() {
         {projects.map((proj, idx) => (
           <SwiperSlide key={idx}>
             <motion.div
-              className="bg-zinc-900 sm:h-[600px] w-full rounded-2xl shadow-lg overflow-hidden"
+              className="bg-zinc-900 sm:h-[500px] w-full rounded-2xl shadow-lg overflow-hidden"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -79,7 +79,7 @@ function Projects() {
               <img
                 src={proj.image}
                 alt={proj.title}
-                className="w-full h-[400px] object-cover"
+                className="w-full h-[300px] object-cover"
               />
               <div className="p-6">
                 <h3 className="text-2xl text-white font-bold mb-2">{proj.title}</h3>
