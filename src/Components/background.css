@@ -1,0 +1,69 @@
+.HeaderContainer {
+  --angle: 180deg;
+  background: linear-gradient(var(--angle), oklab(0% 0 0), oklab(26.5% -0.015 -0.076), oklab(40.3% -0.016 -0.086), oklab(56.7% -0.01 -0.085), oklab(79.3% -0.02 -0.054))
+}
+
+.AboutContainer {
+--angle: 180deg; 
+background: linear-gradient(var(--angle), oklab(0% 0 0), oklab(21.3% 0 0), oklab(32.1% 0 0))
+}
+
+.SkillContainer {
+--angle: 0deg; 
+background: linear-gradient(var(--angle), oklab(45.7% 0 0), oklab(79.8% 0 0))
+}
+
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  60% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: black;
+  }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  animation:
+    typing 7s steps(40, end) infinite,
+    blink 0.7s step-end infinite;
+  width: 0;
+}
+
+
+
+.skill-bar {
+  width: 0;
+  animation: growBar 2s forwards;
+}
+
+@keyframes growBar {
+  to {
+    width: var(--bar-width);
+  }
+}
