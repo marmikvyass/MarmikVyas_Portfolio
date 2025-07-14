@@ -11,7 +11,7 @@ function About() {
     });
     return (
         <>
-      <div className="sticky top-0 AboutContainer h-screen w-full">
+      <div className="AboutContainer h-screen w-full overflow-x-hidden">
         <motion.h1
           id="aboutme"
           className="text-white font-bold sm:text-8xl text-5xl text-center"
