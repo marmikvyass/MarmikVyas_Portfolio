@@ -12,19 +12,19 @@ function Hero() {
                         height="100%"
                         allowFullScreen
                         title="3D Robot"
-                        className="absolute bottom-0 w-full mt-5 h-195 sm:h-210 z-10"
+                        className="absolute bottom-0 w-full mt-5 h-170 sm:h-210 z-10"
                     />
                 </div>
 
                 <motion.div
-                    className='relative z-20 px-1.5 sm:px-0 bg-black/1 pointer-events-none'
+                    className='relative sm:text-start text-center z-20 px-1.5 sm:px-0 bg-black/1 pointer-events-none'
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1 }}
                 >
                     {/* Flip animation for name */}
                     <motion.h1
-                        className='tracking-widest mt-20 sm:mt-20 text-4xl font-bold md:text-8xl'
+                        className='tracking-widest mt-5 sm:mt-20 text-4xl font-bold md:text-8xl'
                         initial={{ rotateY: 90, opacity: 0 }}
                         animate={{ rotateY: 0, opacity: 1 }}
                         transition={{ duration: 1 }}
