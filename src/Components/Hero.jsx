@@ -12,7 +12,7 @@ function Hero() {
                         height="100%"
                         allowFullScreen
                         title="3D Robot"
-                        className="absolute bottom-0 w-full mt-5 h-170 sm:h-210 z-10"
+                        className="absolute bottom-0 sm:bottom-10 w-full mt-5 h-170 sm:h-210 z-10"
                     />
                 </div>
 
