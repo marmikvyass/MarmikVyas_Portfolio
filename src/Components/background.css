@@ -1,16 +1,13 @@
 .HeaderContainer {
-  --angle: 180deg;
-  background: linear-gradient(var(--angle), oklab(0% 0 0), oklab(26.5% -0.015 -0.076), oklab(40.3% -0.016 -0.086), oklab(56.7% -0.01 -0.085), oklab(79.3% -0.02 -0.054))
+background:black;
 }
 
 .AboutContainer {
---angle: 180deg; 
-background: linear-gradient(var(--angle), oklab(0% 0 0), oklab(21.3% 0 0), oklab(32.1% 0 0))
+background:black;
 }
 
 .SkillContainer {
---angle: 0deg; 
-background: linear-gradient(var(--angle), oklab(45.7% 0 0), oklab(79.8% 0 0))
+background:black;
 }
 
 
