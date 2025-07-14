@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
+import Footer from './Footer';
 
 function Contact() {
   const form = useRef();
@@ -18,6 +19,9 @@ function Contact() {
   };
 
   return (
+    <>
+    <div>
+
     <section
       id="contact"
       className="w-full min-h-screen bg-black px-6 py-20 flex justify-center items-center"
@@ -101,7 +105,14 @@ function Contact() {
           </motion.button>
         </form>
       </motion.div>
+
+      
     </section>
+    <Footer />
+    </div>
+
+    </>
+    
   );
 }
 
