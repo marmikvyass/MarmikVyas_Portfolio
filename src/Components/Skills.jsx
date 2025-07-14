@@ -23,18 +23,18 @@ function Skills() {
         { name: 'Javascript', color: 'bg-yellow-500', width: '80%', img: '/js.png' },
         { name: 'ReactJs', color: 'bg-cyan-600', width: '93%', img: '/reactjs.png' },
         { name: 'NodeJs', color: 'bg-gray-600 text-white', width: '80%', img: '/nodejs.png' },
-        { name: 'ExpressJs', color: 'bg-black text-white', width: '85%', img: '/expressjs.png' },
+        { name: 'ExpressJs', color: 'bg-white text-black', width: '85%', img: '/expressjs.png' },
         { name: 'MongoDB', color: 'bg-green-600', width: '87%', img: '/mongodb.png' },
         { name: 'PHP', color: 'bg-purple-500', width: '80%', img: '/php.png' },
         { name: 'Laravel', color: 'bg-red-900 text-white', width: '70%', img: '/laravel.png' },
-        { name: 'MySQL', color: 'bg-slate-950 text-white', width: '90%', img: '/mySql.png' },
+        { name: 'MySQL', color: 'bg-slate-400 text-black', width: '90%', img: '/mySql.png' },
     ];
 
     return (
         <>
-            <div id='skills' className="sticky top-0 SkillContainer h-screen w-full">
+            <div id='skills' className="SkillContainer h-screen w-full">
                 <motion.h1
-                    className='text-black sm:text-8xl text-5xl font-bold text-center'
+                    className='text-white sm:text-8xl text-5xl font-bold text-center'
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -54,11 +54,11 @@ function Skills() {
                             viewport={{ once: false}}
                             custom={i}
                         >
-                            <div className='px-3 sm:px-20 flex items-center gap-3 sm:w-[300px] w-[147px] shrink-0'>
+                            <div className='px-3 sm:px-20 flex text-white items-center gap-3 sm:w-[300px] w-[147px] shrink-0'>
                                 <img className='h-9 w-9 sm:h-12 sm:w-12' src={skill.img} alt={skill.name} />
                                 <span className='font-medium'>{skill.name}</span>
                             </div>
-                            <div className="w-280 bg-gray-200 rounded-full h-5 overflow-hidden">
+                            <div className="w-280 bg-gray-200 rounded-full h-5 overflow-hidden hover:scale-102 transition-all">
                                 <div
                                     className={`skill-bar h-5 text-sm px-3 font-semibold rounded-full ${skill.color}`}
                                     style={{ width: skill.width }}
