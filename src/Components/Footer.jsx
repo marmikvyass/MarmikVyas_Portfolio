@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <>
-            <footer className="w-full bg-black text-white sm:pt-55 pt-40">
+            <footer className="w-full bg-black text-white sm:pt-55 pt-15">
                 <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 bottom-0 ">
                     <p className="text-sm text-center font-semibold sm:text-left">
                         © {new Date().getFullYear()} Marmik Vyas. All rights reserved.
