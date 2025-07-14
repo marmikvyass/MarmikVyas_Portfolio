@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 function Header() {
     return (
         <>
-            <div className='sticky top-0 HeaderContainer w-full h-screen'>
+            <div className='HeaderContainer w-full h-screen'>
                 {/* Navbar Animation */}
                 <motion.div
                     className="relative w-full py-0.5 z-[9999]"
