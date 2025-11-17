@@ -9,6 +9,14 @@ import 'swiper/css/pagination';
 
 const projects = [
   {
+    title: 'Chatly',
+    desc: 'A secure chat platform built with MERN stack and real-time Socket.IO communication.',
+    tech: ['MongoDB', 'Express', 'React', 'Node', 'Nodemailer', 'JWT', 'Bcrypt'],
+    image: '/chatly.png',
+    live: 'https://chatly-flax.vercel.app/',
+    github: 'https://github.com/marmikvyass/Chatly',
+  },
+  {
     title: 'Authify',
     desc: 'A secure authentication app with OTP reset and email verification using MERN stack.',
     tech: ['MongoDB', 'Express', 'React', 'Node', 'Nodemailer', 'JWT', 'Bcrypt'],
