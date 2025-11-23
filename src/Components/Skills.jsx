@@ -33,7 +33,7 @@ function Skills() {
 
     return (
         <>
-            <div id='skills' className="SkillContainer h-screen w-full">
+            <div id='skills' className="SkillContainer h-screen w-full overflow-hidden">
                 <motion.h1
                     className='text-white sm:text-8xl text-5xl font-bold text-center'
                     initial={{ opacity: 0, scale: 0.8 }}
