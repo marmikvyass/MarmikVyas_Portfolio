@@ -44,7 +44,7 @@ function Skills() {
                     skills
                 </motion.h1>
 
-                <div className='grid grid-cols-3 sm:grid-cols-4 text-lg sm:text-2xl gap-6 sm:gap-4 mr-2 sm:mr-0 mt-8'>
+                <div className='grid grid-cols-3 sm:grid-cols-4 text-lg sm:text-2xl gap-6 sm:gap-4 mr-5 sm:mr-0 mt-8'>
                     {skillsData.map((skill, i) => (
                         <motion.div
                             key={i}
