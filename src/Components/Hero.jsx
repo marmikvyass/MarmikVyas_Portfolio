@@ -5,16 +5,7 @@ function Hero() {
     return (
         <>
             <div className="HeroContainer text-white flex flex-col justify-center items-center ">
-                <div className="w-full overflow-hidden mr-10 sm:mr-0">
-                    <iframe
-                        src='https://my.spline.design/robotfollowcursorforlandingpagemc-0CILgRkPDpVHd6F5MFnhg914/'
-                        width="100%"
-                        height="100%"
-                        allowFullScreen
-                        title="3D Robot"
-                        className="absolute bottom-0 sm:bottom-10 w-full mt-5 h-170 sm:h-210 z-10"
-                    />
-                </div>
+                
 
                 <motion.div
                     className='relative sm:text-start text-center z-20 px-1.5 sm:px-0 bg-black/1 pointer-events-none'
@@ -39,7 +30,7 @@ function Hero() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.4, duration: 0.8 }}
                     >
-                        Building fast, full-stack experiences with <span className="font-bold text-white">MERN Stack</span>
+                        Building intelligent and impactful solutions as a <br /> <span className="font-bold text-white">MERN + GenAI Developer</span>
                     </motion.p>
 
                     <motion.p
@@ -48,7 +39,8 @@ function Hero() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.6, duration: 0.8 }}
                     >
-                        Passionate about building clean, responsive, and real-world web applications with modern JavaScript technologies.
+                        Passionate about building clean & responsive AI-powered web-applications, with a focus on LLMs,
+                        vector databases, and <br />real-world AI integrations.
                     </motion.p>
 
                     <motion.a

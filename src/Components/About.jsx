@@ -5,12 +5,12 @@ import { useInView } from 'react-intersection-observer';
 
 
 function About() {
-    const [ref, inView] = useInView({
-        threshold: 0.2,
-        triggerOnce: false,
-    });
-    return (
-        <>
+  const [ref, inView] = useInView({
+    threshold: 0.2,
+    triggerOnce: false,
+  });
+  return (
+    <>
       <div className="AboutContainer h-screen w-full overflow-x-hidden">
         <motion.h1
           id="aboutme"
@@ -37,8 +37,9 @@ function About() {
                 viewport={{ once: false, amount: 0.5 }}
               >
                 I'm <span className="font-bold">Marmik Vyas</span>, a passionate
-                <span className="font-bold"> MERN Stack Developer</span> who enjoys
-                building fast, responsive, and scalable web applications.
+                <span className="font-bold"> MERN + GenAI Developer</span> who enjoys
+                building intelligent, scalable, and high-performance web applications
+                powered by modern AI and full-stack technologies.
               </motion.p>
 
               <motion.p
@@ -48,7 +49,7 @@ function About() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: false, amount: 0.5 }}
               >
-                <span className="typewriter">MERN Developer | PHP Developer | Problem Solver</span>
+                <span className="typewriter">MERN Developer | GenAI | Problem Solver</span>
               </motion.p>
 
               <motion.p
@@ -58,8 +59,9 @@ function About() {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 viewport={{ once: false, amount: 0.5 }}
               >
-                I specialize in working with modern JavaScript tools like React, Node.js, Express, and
-                MongoDB. I love learning new technologies and turning ideas into real-world solutions.
+                I specialize in building full-stack + GenAI applications using technologies
+                like React, Express.js, MongoDB, and RAG-based AI systems. I enjoy learning new
+                technologies and turning ideas into real-world solutions.
               </motion.p>
 
               <motion.p
@@ -80,13 +82,13 @@ function About() {
                 viewport={{ once: false, amount: 0.5 }}
               >
                 <span className="sm:px-5 sm:py-4 px-4 py-2.5 bg-slate-950 rounded-full hover:scale-105 transition-all text-white text-md">
-                  3+ Projects Completed
+                  5+ Projects Completed
                 </span>
                 <span className="sm:px-5 sm:py-4 px-4 py-2.5 bg-slate-950 rounded-full hover:scale-105 transition-all text-white text-md">
                   MongoDB | Express | React | Node
                 </span>
                 <span className="sm:px-5 sm:py-4 px-4 py-2 bg-slate-950 rounded-full hover:scale-105 transition-all text-white text-md">
-                  PHP | Laravel | MySQL
+                  Python | GenAI | RAG | VectorDB
                 </span>
               </motion.div>
             </div>
@@ -94,7 +96,7 @@ function About() {
         </div>
       </div>
     </>
-    )
+  )
 }
 
 export default About
