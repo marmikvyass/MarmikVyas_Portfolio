@@ -49,7 +49,7 @@ function About() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: false, amount: 0.5 }}
               >
-                <span className="typewriter">MERN Developer | GenAI | Problem Solver</span>
+                <span className="typewriter">MERN | Python | GenAI | RAG</span>
               </motion.p>
 
               <motion.p
