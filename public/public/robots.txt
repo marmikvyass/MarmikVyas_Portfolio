@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bhargav-vyas-portfolio.vercel.app/sitemap.xml
+Sitemap: https://marmik-vyas-portfolio.vercel.app/sitemap.xml
